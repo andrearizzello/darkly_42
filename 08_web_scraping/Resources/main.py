@@ -6,7 +6,7 @@ with open('sitemap.txt') as sitemap:
     while line:
         with urlopen(line) as response:
             html = response.read().decode('utf-8')
-            lst = re.findall(r"([a-fA-F\d]{32})", html)
+            lst = re.findall(r"([a-fA-F\d]{33})", html)
             if lst:
                 print('Here is the flag ' + lst[0])
                 print(line)
