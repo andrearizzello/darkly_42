@@ -15,3 +15,7 @@ The backend here generates url following the user click
 Avoid processing user input whenever possible and always sanitize it
 Links are external and must be static
 
+# Source
+
+https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.md
+
